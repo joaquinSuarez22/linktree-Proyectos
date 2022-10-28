@@ -55,6 +55,11 @@
   font-size: 25px;
   font-style: normal;
   background-color: #ffe6db;
+  transition: transform 0.5s ease;
+}
+
+.rectangle:hover {
+  transform: scale(1.05);
 }
 
 .rectangle a {
@@ -85,4 +90,10 @@
 
 .socialmedia img {
   height: 40px;
+transition: transform 0.2s ease;
+
+}
+
+.socialmedia img:hover {
+  transform: scale(1.1);
 }
