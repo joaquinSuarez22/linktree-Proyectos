@@ -14,25 +14,21 @@
 /*colors*/
 
 :root {
-  --color-text: #000000;
+  --color-text: #ffffff;
 
-  --color-rectangle: #e14400;
+  --color-rectangle: #ffffff;
 
-  --color-bg-rectangle: #ffe6db;
+  --color-bg-rectangle: #272727;
 
-  --color-linkedin: #0053cc;
+  --color-linkedin: #000000;
 
-  --color-bg-linkedin: #d5e6ff;
+  --color-bg-linkedin: #FFC700;
+}
+  
+body{
+  background-color: #272727;
 }
 
-/*
-
-  color: #272727;
-  color: #ffffff;
-  color: #FFC700;
-  color: #000000;
-
-*/
 
 /*----------------------------------------------------*/
 
@@ -68,6 +64,7 @@
   line-height: 150%;
   font-style: normal;
   font-size: 15px;
+  color: var(--color-text);
 }
 
 .rectangle {
@@ -84,6 +81,7 @@
   font-style: normal;
   background-color: var(--color-bg-rectangle);
   transition: transform 0.5s ease;
+  border: 2px solid #ffffff;
 }
 
 .rectangle:hover {
@@ -106,6 +104,7 @@
 
 .linkedin {
   background-color: var(--color-bg-linkedin);
+  border: none;
 }
 
 .socialmedia {
