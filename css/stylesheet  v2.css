@@ -82,6 +82,7 @@ body{
   background-color: var(--color-bg-rectangle);
   transition: transform 0.5s ease;
   border: 2px solid #ffffff;
+  text-align: center;
 }
 
 .rectangle:hover {
